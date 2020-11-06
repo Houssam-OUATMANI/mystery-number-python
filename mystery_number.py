@@ -1,9 +1,9 @@
-# Variables
+# Modules
 from math import floor
 from random import seed
 from random import random
 
-
+# Variables
 essaies = 3
 tofind = floor(random() *11)
 front_raw = input("Enter a number\n")
@@ -22,7 +22,6 @@ while (front != tofind and essaies > 0):
     front = int(front_raw)
 
 if (front == tofind):
-    print("Bravo tu as gagné\nEffectivement le muméro mystere etait a deviner est bien le " + str(tofind))
+    print("Bravo tu as gagné\nEffectivement le muméro mystere à deviner est bien le " + str(tofind))
 else:
-    print("Perdu le muméro mystere etait a deviner est bien le " + str(tofind))
-5
+    print("Perdu le muméro mystere à deviner est bien le " + str(tofind))
